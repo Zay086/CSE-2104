@@ -139,7 +139,7 @@ double postfix_evaluation(string postfix){
 int main(){
 
     string infix="(12+34)*56-78/9";
-    cout<<"Enter infix expression: "<<infix<<endl;
+    cout<<"Entered infix expression: "<<infix<<endl;
 
     string postfix = infix_to_postfix(infix);
     cout<<"Postfix expression: "<<postfix<<endl;
